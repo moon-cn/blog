@@ -1,10 +1,12 @@
 +++
-title = 'Post 1'
-date = 2023-01-15T09:00:00-07:00
-draft = true
-tags = ['red']
+title = '哇哇哇哇'
+date = 2023-01-15
+tags = ['摘抄']
 +++
 
-Tempor proident minim aliquip reprehenderit dolor et ad anim Lorem duis sint eiusmod. Labore ut ea duis dolor. Incididunt consectetur proident qui occaecat incididunt do nisi Lorem. Tempor do laborum elit laboris excepteur eiusmod do. Eiusmod nisi excepteur ut amet pariatur adipisicing Lorem.
 
-Occaecat nulla excepteur dolore excepteur duis eiusmod ullamco officia anim in voluptate ea occaecat officia. Cillum sint esse velit ea officia minim fugiat. Elit ea esse id aliquip pariatur cupidatat id duis minim incididunt ea ea. Anim ut duis sunt nisi. Culpa cillum sit voluptate voluptate eiusmod dolor. Enim nisi Lorem ipsum irure est excepteur voluptate eu in enim nisi. Nostrud ipsum Lorem anim sint labore consequat do.
+前面并肩走着一对男女，男孩几次想牵手，却又怯怯缩了回去，嗫嚅着不知该说什么。这时候女孩好像不习惯穿着高跟鞋，突然趔趄了一下，差点摔倒，男孩连忙扶住了她，然后，两个人就自然的牵住手了。男孩并没有看到女孩露出的俏皮偷笑，我却仿佛听到，这大大的城市里，小小爱情发芽的声音。
+from:无业良民
+
+
+ 
