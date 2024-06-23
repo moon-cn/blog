@@ -2,3 +2,8 @@ baseURL = 'https://blog.zzutil.com/'
 languageCode = 'zh-cn'
 title = '木恩的网络日志'
 theme = "moon-cn"
+
+
+
+[params]
+  summaryLength = 50
