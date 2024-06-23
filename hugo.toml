@@ -5,4 +5,5 @@ theme = "moon-cn"
 
 hasCJKLanguage = true
 
-
+# 摘要长度
+summaryLength = 120
