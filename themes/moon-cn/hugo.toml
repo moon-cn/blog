@@ -10,12 +10,14 @@ name = '文章'
 pageRef = '/posts'
 weight = 20
 
+
+
 [[menus.main]]
 name = '分类'
 pageRef = '/tags'
 weight = 30
 
-[module]
-  [module.hugoVersion]
-    extended = false
-    min = "0.116.0"
+[[menus.main]]
+name = '摘抄'
+pageRef = '/extracts'
+weight = 40
