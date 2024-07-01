@@ -1,17 +1,27 @@
 <!DOCTYPE html>
 <html lang="{{ or site.Language.LanguageCode }}">
 <head>
-  {{ partial "head.html" . }}
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" .Title site.Title }}{{ end }}</title>
+  {{ partialCached "head/css.html" . }}
+  {{ partialCached "head/js.html" . }}
 </head>
 <body>
-  <header>
-    {{ partial "header.html" . }}
-  </header>
-  <main>
-    {{ block "main" . }}{{ end }}
-  </main>
-  <footer>
-    {{ partial "footer.html" . }}
-  </footer>
+<section class="section">
+  <div class="container">
+    <header>
+      <h1 class="title">{{ site.Title }}</h1>
+      {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
+    </header>
+    <main>
+      {{ block "main" . }}{{ end }}
+    </main>
+    <footer>
+      <p>Copyright {{ now.Year }}. All rights reserved.</p>
+    </footer>
+  </div>
+</section>
+
 </body>
 </html>
