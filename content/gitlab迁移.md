@@ -6,7 +6,9 @@ date: 2024-07-01
 docker-compose部署
 
 # 安装
-将 docker-compose.yml 拷贝到新机器上，启动
+以下文件拷贝到新机器上，启动
+- docker-compose.yml 
+- gitlab.rb
 
 #  备份
 
