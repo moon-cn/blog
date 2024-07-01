@@ -18,6 +18,28 @@ sudo yum install docker-ce docker-ce-cli containerd.io docker-compose-plugin
 sudo systemctl start docker
 ```
 
+### 设置镜像仓库
+
+```shell
+vi /etc/docker/daemon.json
+```
+编辑内容
+```json
+{
+  "registry-mirrors": [
+       "https://a64gnqd2.mirror.aliyuncs.com",
+       "https://mirror.baidubce.com",
+        "https://docker.m.daocloud.io",
+        "https://docker.nju.edu.cn",
+        "https://docker.mirrors.sjtug.sjtu.edu.cn"
+      ]
+}
+```
+重启
+```
+sudo systemctl daemon-reload	
+sudo systemctl restart docker	
+```
 
 # 安装 docker-compose
 ## 网络有问题的情况
