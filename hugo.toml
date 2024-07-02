@@ -1,6 +1,6 @@
 baseURL = 'https://blog.zzutil.com/'
 languageCode = 'zh-cn'
-title = '木恩饭思的网络日志'
+title = '木恩饭的网络日志'
 theme = "moon-cn"
 
 hasCJKLanguage = true
