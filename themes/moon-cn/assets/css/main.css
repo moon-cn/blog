@@ -21,3 +21,7 @@ pre {
   overflow: auto;
   padding: 16px;
 }
+
+.home p {
+word-break: break-word;
+}
