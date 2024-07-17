@@ -1,6 +1,6 @@
 baseURL = 'https://blog.zzutil.com/'
 languageCode = 'zh-cn'
-title = '木恩的网络日志'
+title = '李白端了一碗汤'
 theme = "moon-cn"
 
 hasCJKLanguage = true
