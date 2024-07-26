@@ -32,6 +32,11 @@ Carte.bat 为服务端程序
 
 使用的Basic认证， 默认账号密码都是 cluster
 
+可通过浏览器访问看看是否启动成功
+http://127.0.0.1:8080/kettle/status/
+![img_4.png](img_4.png)
+
+
 使用postman测试
 ![img_3.png](img_3.png)![img_2.png](img_2.png)
 
