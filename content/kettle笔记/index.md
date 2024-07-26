@@ -10,6 +10,8 @@ date: 2024-07-26
 - 下载地址为：https://www.hitachivantara.com/en-us/products/pentaho-platform/data-integration-analytics/pentaho-community-edition.html
 ![img.png](img.png)- 
 
+- 开源地址：https://github.com/pentaho/pentaho-kettle
+
 # 设计器 Spoon
 
 解压文件
@@ -45,6 +47,8 @@ http://127.0.0.1:8080/kettle/status/
 
 
 # 接口
+网上资料太少
+
 ## 提交作业 executeJob
 
 
