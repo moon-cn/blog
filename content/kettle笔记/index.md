@@ -45,9 +45,14 @@ http://127.0.0.1:8080/kettle/status/
 
 
 # 接口
-## 执行作业
+## 提交作业 executeJob
+
 
 http://127.0.0.1:8080/kettle/executeJob/?rep=test-repo&user=cluster&pass=cluster&job=job1
 
-结果
+可通过页面查看结果 http://127.0.0.1:8080/kettle/status/
 ![img_2.png](img_2.png)
+
+## 提交转换 executeTrans
+
+
