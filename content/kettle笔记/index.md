@@ -16,3 +16,18 @@ date: 2024-07-26
 ![img_1.png](img_1.png)
 
 点击Spoon.bat启动设计界面
+
+
+# 服务端模式
+Carte.bat 为服务端程序
+需命令行启动： 
+- Carte 127.0.0.1 8080 
+- Carte 127.0.0.1 8080 -s -u cluster -p cluster
+
+使用的Basic认证， 默认账号密码都是 cluster
+
+使用postman测试
+![img_3.png](img_3.png)![img_2.png](img_2.png)
+
+
+
