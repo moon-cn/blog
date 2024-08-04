@@ -1,9 +1,0 @@
-baseURL = 'https://blog.zzutil.com/'
-languageCode = 'zh-cn'
-title = '姜涛的网络日志'
-theme = "moon-cn"
-
-hasCJKLanguage = true
-
-# 摘要长度
-summaryLength = 120
