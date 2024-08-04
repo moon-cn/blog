@@ -1,6 +1,7 @@
 baseURL: https://blog.zzutil.com
-languageCode: zh # en-us
-languageName: "zh"
+languageCode: zh
+defaultContentLanguage: zh
+
 
 title: 姜涛的网络日志
 theme: PaperMod
@@ -36,7 +37,7 @@ menu:
       url: tags
       weight: 3
     - identifier: archives
-      name: 档案
+      name: 归档
       url: /archives
       weight: 4
     - identifier: download
