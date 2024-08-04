@@ -1,5 +1,7 @@
 baseURL: https://blog.zzutil.com
 languageCode: zh # en-us
+languageName: "zh"
+
 title: 姜涛的网络日志
 theme: PaperMod
 
@@ -22,15 +24,32 @@ menu:
     - identifier: tags
       name: 🔖标签
       url: tags
+    - identifier: archives
+      name: 📙档案
+      url: /archives
+
 
 
 params:
   author: 姜涛
-  description: 姜涛的网络日志
-  social:
-    icon: github
-    name: github
-    url: https://github.com/war3c
+  title: 姜涛的网络日志
+  description: 姜涛的网络日志，记录IT笔记
+  ShowReadingTime: true
+  ShowToc: true
+  ShowBreadCrumbs: true
+  ShowPostNavLinks: true
+  ShowCodeCopyButtons: true
+  DateFormat: "2006-01-02"
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  TocOpen: true
+
+
+  editPost:
+    URL: "https://github.com/war3c/blog/edit/master/content"
+    Text: "编辑"
+    appendFilePath: true # to append file path to Edit link
 
 outputs:
   home:
