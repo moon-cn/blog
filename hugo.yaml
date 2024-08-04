@@ -1,7 +1,7 @@
 baseURL: https://blog.zzutil.com
 languageCode: zh-cn # en-us
 title: 姜涛的网络日志
-theme: "m10c"
+theme: PaperMod
 
 enableInlineShortcodes: true #允许内联短码
 enableEmoji: true # 允许使用 Emoji 表情，建议 true
