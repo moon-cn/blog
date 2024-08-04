@@ -1,5 +1,5 @@
 baseURL: https://blog.zzutil.com
-languageCode: zh-cn # en-us
+languageCode: zh # en-us
 title: 姜涛的网络日志
 theme: PaperMod
 
@@ -16,6 +16,9 @@ menu:
     - identifier: home
       name: 🏠主页
       url: /
+    - identifier: search
+      name: 🔍搜索
+      url: /search
     - identifier: tags
       name: 🔖标签
       url: tags
@@ -28,3 +31,9 @@ params:
     icon: github
     name: github
     url: https://github.com/war3c
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # necessary for search
