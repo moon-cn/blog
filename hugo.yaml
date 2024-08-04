@@ -60,7 +60,9 @@ params:
   ShowRssButtonInSectionTermList: true
   UseHugoToc: true
   TocOpen: true
-
+  mainSections:
+    - blog
+    - docs
 
   editPost:
     URL: "https://github.com/war3c/blog/edit/master/content"
