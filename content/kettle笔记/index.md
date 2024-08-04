@@ -61,7 +61,7 @@ http://127.0.0.1:8080/kettle/executeJob/?rep=test-repo&user=cluster&pass=cluster
 ## 其他接口
 可参考源码 engine/src/main/resources/kettle-servlets.xml
 
-```
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <servlets>
 

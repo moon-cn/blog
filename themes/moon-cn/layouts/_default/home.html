@@ -1,8 +1,14 @@
 {{ define "main" }}
 <section class="home">
   {{ .Content }}
-  {{ range site.RegularPages }}
-    <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
-  {{ end }}
+  <ul>
+    {{ range site.RegularPages }}
+    <li>
+      {{ $dateHuman := .Date | time.Format "060102" }}
+      <a href="{{ .RelPermalink }}">{{$dateHuman}} {{ .LinkTitle }} </a>
+    </li>
+    {{ end }}
+  </ul>
+
 </section>
 {{ end }}

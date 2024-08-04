@@ -1,5 +1,6 @@
 ---
 title: git后悔命令
+date: 2024-06-01
 ---
 
 清空GIT提交历史
@@ -8,7 +9,7 @@ title: git后悔命令
 简单粗暴的方式是删除仓库，再重新创建仓库。
 使用GIT命令，假设需清空master分支提交历史
 
-```
+```shell
 
 # 检出一个新分支如temp，且不带提交历史
 git checkout --orphan temp
