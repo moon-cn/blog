@@ -1,6 +1,6 @@
 baseURL = 'https://blog.zzutil.com/'
 languageCode = 'zh-cn'
-title = '李白端了一碗汤'
+title = '姜涛的网络日志'
 theme = "moon-cn"
 
 hasCJKLanguage = true
