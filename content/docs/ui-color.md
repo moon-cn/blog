@@ -3,6 +3,8 @@ title: "HTML UI Color"
 date: 2024-08-04T10:56:37+08:00
 ---
 
+## 科技风主题颜色
+
 ```css
 :root {
     --primary: #1961AC;
