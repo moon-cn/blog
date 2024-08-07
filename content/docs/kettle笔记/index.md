@@ -8,7 +8,8 @@ date: 2024-07-26
 - kettle已经更名为pdi， 所以在官网下载 pdi-ce 客户端，
 - 当前版本为 9.4
 - 下载地址为：https://www.hitachivantara.com/en-us/products/pentaho-platform/data-integration-analytics/pentaho-community-edition.html
-![img.png](img.png)- 
+![img.png](img.png)-
+- 直链下载：https://privatefilesbucket-community-edition.s3.us-west-2.amazonaws.com/9.4.0.0-343/ce/client-tools/pdi-ce-9.4.0.0-343.zip
 
 - 开源地址：https://github.com/pentaho/pentaho-kettle
 
