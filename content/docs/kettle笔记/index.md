@@ -37,8 +37,10 @@ Carte.bat 为服务端程序， windows下可修改 Carte.bat, 在前面增加�
 set OPT= -Dfile.encoding=utf-8
 ```
 需命令行启动： 
+
 - Carte 127.0.0.1 8080 
 - Carte 127.0.0.1 8080 -s -u cluster -p cluster
+- Carte 0.0.0.0 8080
 
 使用的Basic认证， 默认账号密码都是 cluster
 
