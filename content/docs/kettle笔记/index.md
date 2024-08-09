@@ -9,7 +9,7 @@ date: 2024-07-26
 - 当前版本为 9.4
 - 开源地址：https://github.com/pentaho/pentaho-kettle
 - 下载地址为：https://www.hitachivantara.com/en-us/products/pentaho-platform/data-integration-analytics/pentaho-community-edition.html
-- 直链下载：https://privatefilesbucket-community-edition.s3.us-west-2.amazonaws.com/9.4.0.0-343/ce/client-tools/pdi-ce-9.4.0.0-343.zip
+- 直链下载(2024年8月更新)：https://privatefilesbucket-community-edition.s3.us-west-2.amazonaws.com/9.4.0.0-343/ce/client-tools/pdi-ce-9.4.0.0-343.zip
 ![img.png](img.png)-
 
 # 默认不带数据库驱动
